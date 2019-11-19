@@ -1,9 +1,22 @@
 import React from 'react';
+import Stoct from './Stock';
+import ProductNumber from './ProductNumber';
 
 const MainContent = () =>{
     return(
-        <div>
-            <h1>This is MainContent Component</h1>
+        <div className="container">
+           <div className="row">
+           <div className="col-md-6">
+           <ProductNumber/>
+            </div>  
+           <div className="col-md-6">
+              <OrderBy Component/> 
+              </div>
+             
+            </div>
+             <div className="row">
+                <Stock/>
+             </div>
         </div>
     )
 }
