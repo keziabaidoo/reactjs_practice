@@ -1,6 +1,7 @@
 import React from 'react';
-import Stoct from './Stock';
+import Stock from './Stock';
 import ProductNumber from './ProductNumber';
+import OrderBy from './OrderBy';
 
 const MainContent = () =>{
     return(
