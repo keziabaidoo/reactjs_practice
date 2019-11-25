@@ -2,9 +2,12 @@ import React from 'react';
 
 const ProductNumber = () =>{
     return(
-        <div>
-            <h1>This is ProductNumber Component</h1>
-        </div>
+        <div class="col-lg-6">
+        <div class="row">
+         <h3 >16 product(s) found:)</h3>
+       </div>
+       </div>
+    
     )
 }
 
