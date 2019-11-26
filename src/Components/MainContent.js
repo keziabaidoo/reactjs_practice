@@ -9,6 +9,8 @@ import imag  from '../images/8.jpg';
 import main from '../images/12.jpg';
 import side from '../images/9.jpg';
 import pic from '../images/0.jpg';
+import din from '../images/15.jpg';
+import fri from '../images/4.jpg';
 
 const MainContent = () =>{
     return(
@@ -26,9 +28,11 @@ const MainContent = () =>{
                 <Stock img={images}/>
                 <Stock img={image}/>
                 <Stock img={imag}/>
-                <stock img={main}/>
-                <stock img={side}/>
-                <stock img={pic}/>
+                <Stock img={main}/>
+                <Stock img={side}/>
+                <Stock img={pic}/>
+                <Stock img={din}/>
+                <Stock img={fri}/>
              </div>
         </div>
     )
