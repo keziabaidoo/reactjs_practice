@@ -25,14 +25,16 @@ const MainContent = () =>{
              
             </div>
              <div className="row">
-                <Stock img={images}/>
-                <Stock img={image}/>
-                <Stock img={imag}/>
-                <Stock img={main}/>
-                <Stock img={side}/>
-                <Stock img={pic}/>
-                <Stock img={din}/>
-                <Stock img={fri}/>
+                <Stock img={images} stockin="Fashion Shirt" price="$100.00"/>
+                <Stock img={image} stockin="Din Shirt" price="$100.00" price2="10"/>
+                <Stock img={imag} stockin="Windy Shirt" price="$600.00" price2="14"/>
+                <Stock img={main} stockin="Bin shirt" price="$800.00" price2="17"/>
+                <div className="row">
+                <Stock img={side} stockin="By Shirt" price="$900.00" price2="18"/>
+                <Stock img={pic} stockin="Sidy Shirt" price="$500.00" price2="16"/>
+                <Stock img={din} stockin="Viny Shirt" price="$200.00" price2="12"/>
+                <Stock img={fri} stockin="White Shirt" price="$700.00" price2="13"/>
+             </div>
              </div>
         </div>
     )
